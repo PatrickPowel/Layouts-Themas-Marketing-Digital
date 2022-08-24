@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#quad0{
+    background-image: url(../img/marketing-digital.jpg);
+    background-repeat: no-repeat;
+    background-repeat: round;
+    padding: 10%;
+}
+#quad1{
+    padding: 5%;
+    background-color: cornflowerblue;
+    color: white;
+}
+#quad2{
+    padding: 6%;    
+}
+#quad3{    
+    background-color:  rgb(89, 130, 206); 
+    color:white;
+    padding: 7%;   
+}
+#msg::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite ;
+    animation-delay: 0.2s;
+}
+
+@keyframes pisca {
+    0% {
+        opacity: 1;
+    }
+   50% {
+      opacity: 0;
+    }
+}
+#ic1{
+    font-size: 45pt;
+    color: green;
+}
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
+.copyright{
+    background-color: rgb(89, 130, 206);
+}
